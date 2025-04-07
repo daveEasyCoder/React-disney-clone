@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import p4 from "/gallery/p4.jpg";
 const VideoCard = (props) => {
  
   const videoSlide = useRef();
@@ -20,7 +21,7 @@ const VideoCard = (props) => {
             { 
              props.videos.map((video) => (
                 <div key={video.id} className='recommanded-video-item' onClick={() =>props.openVideo(video.id,props.type)}>
-                  <img className='recommanded-video-item-image' src={`src/assets/${video.image}`} alt="" />
+                  <img className='recommanded-video-item-image' src={p4} alt="" />
                   <div className='video-item-tool'>
                       <div className='video-item-tool-content'>
                           <p className='video-item-title'>{video.title}</p>
