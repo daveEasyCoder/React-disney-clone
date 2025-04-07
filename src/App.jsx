@@ -33,6 +33,7 @@ function App() {
       <Hero />
       <Card />
       <img src={p4} alt="" />
+      <img src={`${import.meta.env.BASE_URL}p4.jpg`} alt="Banner" />
       <VieoCard  videos ={RecommandedVideos} 
                  openVideo = {openVideo} 
                  title = "Recommanded for you"
