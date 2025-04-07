@@ -41,16 +41,16 @@ const Footer = () => {
           <div>find Us On:</div>
           <div className="social-media-icons">
             <a href="https://github.com/daveEasyCoder" target="_blanck"> 
-              <img src="src/assets/icons/facebook.png" />
+              <img src="facebook.png" />
             </a>
             <a href="https://github.com/daveEasyCoder" target="_blanck"> 
-              <img src="src/assets/icons/insta.png" />
+              <img src="insta.png" />
             </a>
             <a href="https://github.com/daveEasyCoder" target="_blanck"> 
-              <img src="src/assets/icons/tele.webp" />
+              <img src="tele.webp" />
             </a>
             <a href="https://github.com/daveEasyCoder" target="_blanck"> 
-              <img src="src/assets/icons/twitter.png" />
+              <img src="twitter.png" />
             </a>
           
           </div>

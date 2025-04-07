@@ -32,7 +32,7 @@ function App() {
       <Navbar />
       <Hero />
       <Card />
-      <img src={p4} alt="lorem laskdfjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk" />
+      {/* <img src={p4} alt="lore" /> */}
     
       <VieoCard  videos ={RecommandedVideos} 
                  openVideo = {openVideo} 
@@ -57,7 +57,7 @@ function App() {
 
      
       <div style={{display:show === true ? 'block' : 'none'}} className='video-popup'>
-        <video src={`src/assets/movie/${trailers}`}
+        <video src={`${import.meta.env.BASE_URL}${trailers}`}
           controls autoPlay
           />
         <div className='close-btn' onClick={closeVideo}>

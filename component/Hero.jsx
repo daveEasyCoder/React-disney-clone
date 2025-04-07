@@ -26,7 +26,7 @@ const Hero = () => {
                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa itaque doloremque natus repellendus, velit iste incidunt earum quidem sunt modi!</p>
                     </div>
                     <div className='hero-right'>
-                        <img src={`src/assets/${slider.image}`} alt="image" />
+                        <img src={`${import.meta.env.BASE_URL}${slider.image}`} alt="image" />
                     </div>
                 </div>
             ))}
