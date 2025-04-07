@@ -20,7 +20,7 @@ const VideoCard = (props) => {
             { 
              props.videos.map((video) => (
                 <div key={video.id} className='recommanded-video-item' onClick={() =>props.openVideo(video.id,props.type)}>
-                  <img className='recommanded-video-item-image' src={`src/assets/${video.image}`} alt="" />
+                  <img className='recommanded-video-item-image' src={`assets/${video.image}`} alt="" />
                   <div className='video-item-tool'>
                       <div className='video-item-tool-content'>
                           <p className='video-item-title'>{video.title}</p>

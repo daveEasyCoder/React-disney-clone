@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import logo from '../src/assets/logo.webp'
+import logo from '../assets/logo.webp'
 const Navbar = () => {
 
   const menuRef = useRef();
