@@ -35,6 +35,11 @@ function App() {
                  title = "Recommanded for you"
                  type = "recommanded"
                      />
+      <VieoCard  videos ={RecommandedVideos} 
+                 openVideo = {openVideo} 
+                 title = "Recommanded for you"
+                 type = "recommanded"
+                     />
       <VieoCard videos ={PopularVideo}
                 openVideo = {openVideo} 
                 title = "Popular on disney"
