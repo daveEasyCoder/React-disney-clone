@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className='header'>
             <div className='header-left'>
               <div className='logo'>
-                <img className='' src="../src/assets/icons/logo.webp" alt="logo" />
+                <img className='' src="src/assets/logo.webp" alt="logo" />
               </div>
               <nav>
                   <ul ref={menuRef}>
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <li>Premium</li>
                     <li>Disney+</li> 
                   </ul>
-                  <div className='kids'><img src="../src/assets/icons/kids.svg.png" alt="logo" /></div>
+                  <div className='kids'><img src="src/assets/kids.svg.png" alt="logo" /></div>
               </nav>
             </div>
             <div className='header-right'>

@@ -31,19 +31,16 @@ function App() {
       <Hero />
       <Card />
       <VieoCard  videos ={RecommandedVideos} 
-                 paths="thumbnail"
                  openVideo = {openVideo} 
                  title = "Recommanded for you"
                  type = "recommanded"
                      />
       <VieoCard videos ={PopularVideo}
-                paths="popularImage" 
                 openVideo = {openVideo} 
                 title = "Popular on disney"
                  type = "popular"
                 />
       <VieoCard videos ={PopularVideo}
-                paths="popularImage" 
                 openVideo = {openVideo} 
                 title = "Only on disney"
                  type = "popular"
@@ -55,7 +52,7 @@ function App() {
           controls autoPlay
           />
         <div className='close-btn' onClick={closeVideo}>
-          <i className="fa-solid fa-xmark"></i>
+          <p>x</p>
         </div>
       </div>
 

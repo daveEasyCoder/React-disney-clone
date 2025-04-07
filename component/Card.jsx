@@ -22,11 +22,11 @@ const Card = () => {
                 VideoItem.map((video,index) => (
 
                   <div key={video.id} className='video-card' onMouseEnter={()=>handleMouseEnter(index)} onMouseLeave={handleMouseLeave} >
-                    <img src={`src/assets/shortThumbnails/${video.img}`} alt="image" />
+                    <img src={`src/assets/${video.img}`} alt="image" />
                     <video
                        id={`video-${index}`}
                        muted loop 
-                       src={`src/assets/short/${video.videoUrl}`} />
+                       src={`src/assets/${video.videoUrl}`} />
                   </div>
                 ))
               
