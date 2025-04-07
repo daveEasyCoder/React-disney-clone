@@ -8,6 +8,8 @@ import VieoCard from '../component/VideoCard';
 import Footer from '../component/Footer';
 import RecommandedVideos from '../component/RecommandedVideos';
 import PopularVideo from '../component/PopularVideo';
+import p4 from "/gallery/p4.jpg";
+
 
 function App() {
   const[show,setShow] = useState(false);
@@ -30,6 +32,7 @@ function App() {
       <Navbar />
       <Hero />
       <Card />
+      <img src={p4} alt="" />
       <VieoCard  videos ={RecommandedVideos} 
                  openVideo = {openVideo} 
                  title = "Recommanded for you"

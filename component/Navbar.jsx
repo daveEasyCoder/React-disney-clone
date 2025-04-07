@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react'
-import logo from '../assets/logo.webp'
 const Navbar = () => {
 
   const menuRef = useRef();
@@ -13,7 +12,7 @@ const Navbar = () => {
       <div className='header'>
             <div className='header-left'>
               <div className='logo'>
-                <img className='' src={logo} alt="logo" />
+                <img className='' src="assets/logo.webp" alt="logo" />
               </div>
               <nav>
                   <ul ref={menuRef}>
